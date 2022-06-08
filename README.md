@@ -111,7 +111,7 @@ root
 ```
 
 ### Case: RestaurantDocument
-`df.groupBy(Columns).agg(collect_list())` remove columns not in gruopBy
+`df.groupBy(Columns).agg(collect_list())` remove columns not in groupBy
 ```
 +-----------+--------------------+-------------------+-----------+-----+-----------+--------+---------+------------+
 |business_id|                name|            address|       city|state|postal_code|latitude|longitude|phone_number|
